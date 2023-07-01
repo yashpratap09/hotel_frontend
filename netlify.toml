@@ -1,7 +1,7 @@
 [build]
   command = "CI= npm run build"
   publish = "/dist"
-  base = "clint"
+  base = "/"
   
 
 [[redirects]]
@@ -10,7 +10,4 @@
   status = 200
 
  
-  # Directory to change to before starting a build.
-  # This is where we will look for package.json/.nvmrc/etc.
-  # If not set, defaults to the root directory.
   
