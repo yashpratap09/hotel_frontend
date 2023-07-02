@@ -206,7 +206,7 @@ function filterByType(e){
 
 
           <div className="row mt-4  bs">
-         <div className="col-md-3">
+         <div className="col-md-4">
          <RangePicker format='DD-MM-YYYY' onChange={filterByDate} />
          </div>
 
