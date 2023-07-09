@@ -76,7 +76,9 @@ function Login() {
 
             <br /><br />
 
-            Already have an account  <NavLink to="/login" >Click here</NavLink>
+           
+
+            Don't have an account  <NavLink to="/register" >Click here</NavLink> 
           </form>
 
 
