@@ -209,7 +209,9 @@ function filterByType(e){
          <div className="col-md-4">
          {/* <RangePicker format='DD-MM-YYYY' onChange={filterByDate} /> */}
 
-         <Space direction="horizontal" size={0}>  <RangePicker format='DD-MM-YYYY' onChange={filterByDate} />   </Space>
+         <Space direction="horizontal" size={0}>  <RangePicker format='DD-MM-YYYY'  onChange={filterByDate} onClick={(triggerNode) => {
+          return triggerNode.parentNode }}    getPopupContainer={(triggerNode) => {
+          return triggerNode.parentNode }} />   </Space>
 
          
          </div> <br />
