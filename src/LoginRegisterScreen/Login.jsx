@@ -5,6 +5,7 @@ import axios from 'axios';
 import Loder from '../LodingComponents/Loder';
 import Error from '../LodingComponents/Error';
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate()
@@ -72,6 +73,10 @@ function Login() {
             <input type="password" name="Password" required className='form-control mt-2 tableback' placeholder='Password' value={postdata.Password} onChange={handleOnChange} />
 
             <button type='submit' className='btn btn-primary mt-3 '>Login</button>
+
+            <br /><br />
+
+            Already have an account  <NavLink to="/login" >Click here</NavLink>
           </form>
 
 
